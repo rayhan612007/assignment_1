@@ -126,3 +126,82 @@ section.section_1{
     font-weight: 700;
     text-transform: uppercase;
 }
+/* pricing card section */
+.card_section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+section div.top{
+    display: grid;
+    gap: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+section div.top h1{
+    font-size: 48px;
+    margin: 0px;
+}
+.pricing_card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin: 5px 10px;
+}
+.card{
+    border: 1px solid #E5E7EB;
+    padding: 15px;
+    border-radius: 10px;
+    display: grid;
+    gap: 12px;
+}
+.card_top{
+    color: #888888;
+    
+}
+.card_top h2{
+    color: #0D1B2A;
+    font-size: 44px;
+}
+.card_bottom ul{
+    display: grid;
+    gap: 10px;
+    padding: 1px 18px 18px 18px;
+    ;
+}
+.card_bottom ul li::marker {
+    color: #2563EB;
+}
+.card_bottom button{
+    width: 100%;
+    padding: 10px;
+    color: #2563EB;
+    background-color: #FFFFFF;
+    border: 1px solid #2563EB;
+    border-radius: 8px;
+}
+.card_middle{
+    background-color: #0D1B2A;
+    border: none;
+    color: #FFFFFFCC;
+}
+.card_middle p{
+    color: #93C5FD;
+}
+.card_middle h2{
+    color: #FFFFFF;
+}
+.card_middle button{
+    background-color: #2563EB;
+    color: #FFFFFF;
+}
+.card_right{
+    background-color: #F8F9FB;
+}
+.card_right button{
+    border: 1px solid #0D1B2A;
+    color: #0D1B2A;
+}
