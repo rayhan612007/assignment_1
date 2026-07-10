@@ -253,3 +253,67 @@ footer div.footer_container{
 button{
     cursor: pointer;
 }
+
+/* venue section */
+.venue_bg{
+    background-color: #0b0f13b5;
+    width: 100%;
+    padding: 20px 0;
+}
+.venue_section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:30px;
+    margin-top: 20px;
+    color: #F8F9FB;
+}
+.relative{
+    position: relative;
+
+}
+.venue_title{
+    color: #FFFFFF;
+}
+.venue_title h2{
+    color: #a21ff4;
+}
+.venue_title h3{
+    font-size: 34px;
+
+}
+.venue_section_left img{
+    width: 100%;
+    border-radius: 18px;
+
+}
+.venue_location{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    background-color:#0d1117 ;
+    color: #FFFFFF;
+    padding: 6px 8px;
+    border-radius: 5px;
+}
+.venue_location i{
+    color: #6c5ce7;
+}
+.venue_section_right{
+    margin: 20px 0px;
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+}
+.venue_section_right p{
+    width: 50%;
+    line-height: 1.5;
+}
+.venue_section_right button{
+    border:1px solid #6c5ce7;
+    padding: 10px 40px;
+    color: #FFFFFF;
+}
+
+
