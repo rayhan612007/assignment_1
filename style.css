@@ -253,6 +253,12 @@ footer div.footer_container{
 button{
     cursor: pointer;
 }
+button:hover{
+    opacity: 50%;
+}
+a:hover{
+    color: #a65ce7;
+}
 
 /* venue section */
 .venue_bg{
