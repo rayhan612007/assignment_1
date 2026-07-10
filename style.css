@@ -256,7 +256,7 @@ button{
 
 /* venue section */
 .venue_bg{
-    background-color: #0b0f13b5;
+    background-color: #0d1b2ad7;
     width: 100%;
     padding: 20px 0;
 }
@@ -289,31 +289,63 @@ button{
 .venue_location{
     position: absolute;
     bottom: 50px;
-    left: 50px;
+    left: 40px;
     background-color:#0d1117 ;
     color: #FFFFFF;
     padding: 6px 8px;
     border-radius: 5px;
 }
+.top_location{
+    position: absolute;
+    left: 40px;
+    background-color:#0d1117 ;
+    color: #FFFFFF;
+    padding: 6px 8px;
+    border-radius: 5px;
+    top: 40px;
+
+}
 .venue_location i{
     color: #6c5ce7;
 }
 .venue_section_right{
-    margin: 20px 0px;
+    margin: 30px 0px;
     display: flex;
     font-size: 20px;
     flex-direction: column;
     text-align: left;
-    gap: 20px;
+    gap: 30px;
 }
 .venue_section_right p{
     width: 50%;
     line-height: 1.5;
 }
 .venue_section_right button{
-    border:1px solid #6c5ce7;
-    padding: 10px 40px;
+    border:1px solid #a65ce7;
+    padding: 20px 80px;
+    
+    font-size: 16px;
     color: #FFFFFF;
+    background-color: #0D1B2A;
+    border-radius: 10px;
 }
+.venue_section_right .box_section{
+    display: flex;
+    gap: 30px;
+}
+.venue_section_right .box{
+    background-color: #65636357;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding:20px 15px;
+    border-radius: 15px;
+    
+}
+.box i{
+    font-size: 28px;
+    color: #a65ce7;
+}
+
 
 
