@@ -205,3 +205,51 @@ section div.top h1{
     border: 1px solid #0D1B2A;
     color: #0D1B2A;
 }
+/* footer section */
+footer div.footer_container{
+    background-color: #0D1B2A;
+    height: 140px;
+    color: #FFFFFF66;
+    
+}
+.footer_container hr{
+    border: 1px solid #FFFFFF66;
+    margin: 0 20px;
+}
+.footer_top_container{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    align-items: center;
+}
+.social-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.social-links a{
+    cursor: pointer;
+    color: #F8F9FB;
+    font-size: 30px;
+}
+.copyright{
+    display: flex;
+    justify-content: center;    
+    gap: 50px;
+    padding:10px  50px;
+    align-items: center;
+}
+.copyright div{
+    display: flex;
+    gap: 10px;
+}
+.copyright div a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #FFFFFF66;
+}
+button{
+    cursor: pointer;
+}
