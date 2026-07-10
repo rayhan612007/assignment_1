@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 nav{
     width: 100%;
@@ -16,6 +17,7 @@ nav{
 nav ul{
     display: flex;
     gap: 15px;
+    font-family: "Arimo", sans-serif;
 }
 nav li{
     list-style: none;
@@ -30,6 +32,7 @@ nav li a{
     border: none;
     color: #FFFFFF;
     padding: 15px 30px;
+    font-size: 18px;
     border-radius: 10px;
 }
 section.section_1{
@@ -55,16 +58,18 @@ section.section_1{
     /* font_famliy inter bold italic */
     
     font-weight: bold;
-    /* padding: 6%; */
     width: 700px;
     color: #FFFFFF;
 
 }
 .section_1_container p{
-    padding: 0 100px;
+    /* padding: 0 80px; */
+    font-weight: normal;
+    font-size: 18px;
 }
 .section_1_container button{
     padding: 25px 60px;
+    font-size: 20px;
 }
 .section_1_container div{
     display: grid;
@@ -118,5 +123,6 @@ section.section_1{
 }
 .card_text h6{
     color: #1D4ED8;
+    font-weight: 700;
     text-transform: uppercase;
 }
