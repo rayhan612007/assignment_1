@@ -64,6 +64,7 @@ section.section_1{
 }
 .section_1_container p{
     /* padding: 0 80px; */
+    text-align: center;
     font-weight: normal;
     font-size: 18px;
 }
@@ -120,10 +121,13 @@ section.section_1{
     flex-direction: column;
     gap: 5px;
 }
-.card_text h6{
+.card_text small{
     color: #1D4ED8;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
+}
+.card_text p{
+    color: #575757;
 }
 /* pricing card section */
 .card_section{
